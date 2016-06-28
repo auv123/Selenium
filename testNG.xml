@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="DisplayNPricesForItemSpecifiedTest">
+		<parameter name="item-name" value="ipad" />
+		<parameter name="item-count" value="5" />
+		<classes>
+			<class name="DisplayNPricesForItemSpecifiedTest"/>
+		</classes>
+	</test>
+</suite>
+
