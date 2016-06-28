@@ -6,4 +6,4 @@ For example, if the item-name is “ipad” and the item-count is “5”, the t
 
 Tests are also provided for both the returnPrices method as well as the cleanupString method.
 
-Framework/technologies used: Selenium Webdriver, TestNG, Maven, Java
+**Framework/technologies used: Selenium Webdriver, TestNG, Maven, Java**
